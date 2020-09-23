@@ -1,0 +1,10 @@
+NETWORK CHANGE (NC) allow you to manage immeasurableness settings TCP/IP for your computer. Tire to change 'by hand' the TCP/IP paramters each time you have to connect to a different network LAN? Create a Profile for each LAN and select it when need: NC change 'on fly' TCP/IP settings. Quick & Easy! 
+Features:
+- You can switch to profile (TCP/IP parameters) and to "Obtain automatically IP/DNS address"
+- minimize/resume to tray-area 
+- multi-language-support: English and Italian languages provide, but you can add as many as languages you want.
+- /AUTO command-line parameter, so if you load NC at Windows startup, automatically will be minimized on tray-area.
+Also, this project contains other useful code to:
+- easy manage INI files configuration. (See clsIni.cls file)
+- advanced method to get 'really' previous instance of programs, started on VB IDE, also!. (See modTrayIcon.bas file)
+- Send e-mail, open url. (See modInternet.bas file)
