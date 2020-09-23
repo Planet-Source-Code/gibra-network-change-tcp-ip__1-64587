@@ -1,0 +1,102 @@
+; ============================================================
+; Application	: NETWORK CHANGE
+; Version	: 1.3.5
+; Author	: Giorgio Brausi
+; web site	: http://www.vbcorner.net
+; e-mail	: vbcorner@vbcorner.net
+; ============================================================
+; ITALIANO.LNG - Please don't delete this file!
+; ============================================================
+  
+[frmMain]
+mnuFileMinimizeOnClickX.Caption=Clic su 'X' riduce la finestra ad icona
+mnuFileAutoSelectNetworkCard.Caption=Auto-seleziona la scheda di rete (se unica)
+mnuFileExit.Caption=&Esci
+mnuLanguages.Caption=Lingue
+mnuHelp.Caption=&Guida
+mnuHelpHomePage.Caption=&Home page di vbCorner...
+mnuHelpSendEmail.Caption=&Invia e-mail all'autore...
+mnuHelpAbout.Caption=&Informazioni su...
+mnuTrayOpen.Caption=&Mostra finestra...
+mnuTrayAbout.Caption=&Informazioni su...
+mnuTrayExit.Caption=&Esci
+cmdEnableDHCP.Caption=Attiva impostazioni automatiche 
+cmdProfileActivate.Caption=Attiva il profilo selezionato
+cmdProfileEdit.Caption=Modifica profilo...
+cmdProfileDelete.Caption=Elimina profilo
+cmdProfileClone.Caption=Clona profilo...
+cmdProfileCreateNew.Caption=Crea un nuovo profilo...
+lstProfiles.List(0)=lstProfiles
+Label1(1).Caption=Impostazioni TCP/IP
+imgVBCorner.ToolTipText=Visita www.vbcorner.net
+Label1(0).Caption=Seleziona il profilo desiderato dall'elenco
+imgIcon.ToolTipText=Credits
+lblActiveProfile.Caption=Profilo attivo:
+lblVersion.Caption=Versione
+
+ 
+[frmNewSettings]
+frmNewSettings.Caption=Crea un nuovo profilo
+cmdCancel.Caption=Chiudi
+cmdSave.Caption=Salva
+Label2.Caption=Inserisci un valore e premi Invio (o il punto) per passare al campo successivo:
+Label1.Caption=Nome per questo profilo:
+lblAddress(0).Caption= Indirizzo IP 
+lblAddress(1).Caption= Indirizzo IP: 
+lblAddress(2).Caption= Subnet mask: 
+lblAddress(3).Caption= Gateway predefinito: 
+lblAddress(4).Caption= Indirizzi server DNS 
+lblAddress(5).Caption= Server DNS preferito: 
+lblAddress(6).Caption= Server DNS alternativo: 
+
+[frmSelectNIC]
+frmSelectNIC.Caption=Selezione Scheda di Rete
+cmdCancel.Caption=Chiudi
+cmdSave.Caption=Conferma
+lblNIC.Caption=Seleziona la Scheda di Rete
+chkAllNIC.Caption=Attiva su Tutte le Schede di Rete
+
+
+[Strings]
+0001=Chiude l'applicazione
+0002=Selezionare prima un profilo dalla lista!
+0003=Applica l'impostazione TCP/IP selezionata
+0004=Crea un nuovo profilo partendo dal profilo esistente selezionato
+0005=Crea un nuovo profilo da aggiungere alla lista
+0006=Azzera le impostazioni TCP/IP e le imposta su 'Ottieni automaticamente un indirizzo IP'
+0007=DHCP è stato abilitato.
+0008=DHCP non è stato abilitato.
+0009=Selezionare il profilo da eliminare dall'elenco!
+0010=Elimina il profilo selezionato.
+0011=Modifica il profilo selezionato.
+0012=Crea un nuovo profilo partendo dal profilo esistente selezionato
+0013=Un ringraziamento a:
+0014=Clic: seleziona il profilo da attivare - Doppio Clic: modifica il profilo.
+0015=Impostazioni del profilo selezionato.
+0016=Attenzione: saranno azzerati tutti i parametri TCP/IP.
+0017=Confermate?
+0018=Non esiste alcun profilo!
+0019=Selezionare prima un profilo dalla lista!
+0020=Modifica Profilo
+0021=Clona Profilo
+0022=Mancano uno o più valori.
+0023=Il profilo %s esiste già!
+0024=Volete sovrascriverlo?
+0025=Attivare il profilo %s ?
+0026=Eliminare il profilo %s ?"
+0027=Non è presente alcun file di linguaggio!
+0028=attivato.
+0029=Questo programma permette di cambiare 'al volo' i parametri TCP/IP.
+0030=E' in corso l'attivazione del profilo. Attendere...
+0031=Profilo attivato.
+0032=Indirizzo IP        :
+0033=Subnet Mask         :
+0034=Gateway predefinito :
+0035=DNS predefinito     :
+0036=DNS alternativo     :
+0037=Conferma Selezione
+0038=Click: Seleziona la Scheda di Rete
+0039=Attiva su Tutte le Schede di Rete
+0040=Nessun Profilo Attivato
+0041=Selezionare prima una Scheda di Rete
+0042=Scheda di rete non trovata!

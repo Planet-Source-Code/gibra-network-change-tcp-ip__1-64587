@@ -1,0 +1,22 @@
+Roberto Doretto
+
+MODIFICHE versione 1.3.0
+	  Data: 08/10/2005
+
+- aggiunto la form frmSelectNIC
+- aggiunto le voci nel file lingua per i controlli della form sopra riportata
+- aggiungo le voci nel file lingua:
+	0037
+	0038
+	0039
+	0040
+	0041
+
+Modificato l'evento  cmdProfileActivate_Click  per richiamare la funzione   EachNIC
+
+Aggiunto la funzione EachNIC, la quale richiama la Form sopra citata
+
+Aggiunto parametro (NetworkCards) alla routine   SetTCP_Profile, se il parametro contiene *ALL, il profilo verra' attivato
+a tutte le schede di rete altrimenti verra' attivato solo sulla scheda di rete selezionata
+
+Modificato la routine SetTCP_Profile per attivare il profilo in funzione del parametro passato

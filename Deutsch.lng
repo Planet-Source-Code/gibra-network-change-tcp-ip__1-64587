@@ -1,0 +1,99 @@
+; ============================================================
+; Application	: NETWORK CHANGE
+; Version	: 1.3.5
+; Author	: Patrik Menne für Giorgio Brausi
+; web site	: http://www.vbcorner.net
+; e-mail	: p.menne@scs-mg.de // vbcorner@vbcorner.net
+; ============================================================
+; Deutsch.LNG - Bitte löschen Sie diese Datei nicht!
+; ============================================================
+ 
+[frmMain]
+mnuFileExit.Caption=Beenden
+mnuFileMinimizeOnClickX.Caption='X' minimiert das Fenster
+mnuFileAutoSelectNetworkCard.Caption=Auto-select network card (if one only exixts)
+mnuLanguages.Caption=Sprachen
+mnuHelp.Caption=&Help
+mnuHelpHomePage.Caption=Visit VBCorner web site
+mnuHelpSendEmail.Caption=Send e-mail to author...
+mnuHelpAbout.Caption=&About...
+mnuTrayOpen.Caption=&Fenster maximieren...
+mnuTrayAbout.Caption=Über...
+mnuTrayExit.Caption=E&nde
+cmdEnableDHCP.Caption=IP-Konfiguration automatisch beziehen
+cmdProfileActivate.Caption=aktiviere das ausgewählte Profil
+cmdProfileEdit.Caption=Profil bearbeiten...
+cmdProfileDelete.Caption=Profil löschen...
+cmdProfileClone.Caption=Profil dublizieren...
+cmdProfileCreateNew.Caption=Neues Profil erstellen...
+Label1(1).Caption=TCP/IP Einstellungen
+imgVBCorner.ToolTipText=Besuchen Sie www.vbcorner.net
+Label1(0).Caption=Profil aus der Liste wählen
+imgIcon.ToolTipText=Credits
+lblActiveProfile.Caption=aktives Profil:
+lblVersion.Caption=Version
+
+ 
+[frmNewSettings]
+frmNewSettings.Caption=Neues Profil erstellen
+cmdCancel.Caption=Schliessen
+cmdSave.Caption=Speichern
+Label2.Caption=Geben Sie einen Wert ein und bestätigen Sie diesen mit Enter oder Tab:
+Label1.Caption=Geben Sie einen Profilnamen ein:
+lblAddress(0).Caption= IP Adresse 
+lblAddress(1).Caption= IP Adresse: 
+lblAddress(2).Caption= Subnet Maske: 
+lblAddress(3).Caption= Standard Gateway: 
+lblAddress(4).Caption= DNS-Server Adressen 
+lblAddress(5).Caption= Bevorzugter DNS-Server: 
+lblAddress(6).Caption= Alternativer DNS-Server: 
+
+[frmSelectNIC]
+frmSelectNIC.Caption=Wählen Sie die gewünschte Netzwerkkarte aus
+cmdCancel.Caption=Schliessen
+cmdSave.Caption=Speichern
+lblNIC.Caption=Auswahl der Netzwerkkarte
+chkAllNIC.Caption=Aktivieren der Einstellungen auf alle verfügbaren Netzwerkkarten
+
+[Strings]
+0001=Programm beenden
+0002=Sie müssen erst ein Profil aus der Liste wählen!
+0003=Anwenden der ausgesuchten TCP/IP Einstellungen
+0004=Ein neues Profil aus dem bereits ausgesuchten Profil erstellen
+0005=Hinzufügen des neuen Profils in die Liste
+0006=Zurücksetzen der TCP/IP Einstellungen und aktivieren der Einstellung 'IP-Konfiguration automatisch beziehen...'
+0007=DHCP wurde aktiviert.
+0008=DHCP konnte nicht aktivieret werden.
+0009=Wählen Sie das Profil aus, um es löschen zu können!
+0010=Ausgewähltes Profil löschen.
+0011=Ausgewähltes Profil bearbeiten.
+0012=Ein neues Profil aus dem bereits ausgesuchten Profil erstellen
+0013=Dank an:
+0014=Markieren, um Profil zu aktivieren - Doppel Klick, um es zu bearbeiten.
+0015=Ausgewählte Profil-Einstellungen
+0016=Achtung: Möchten Sie ALLE vorgenommenen TCP/IP Parameter zurücksetzen?
+0017=Bestätigen Sie mit Ja oder Nein
+0018=Es gibt kein zu bearbeitendes Profil!
+0019=Wählen Sie zunächst ein Profil aus der Liste!
+0020=Profil bearbeiten
+0021=Profil dublizieren
+0022=Leere Felder bitte mit "0" füllen!
+0023=Das Profil %s besteht bereits!
+0024=Möchten Sie es wirklich überschreiben?
+0025=Möchten Sie das Profil %s aktivieren?
+0026=Möchten Sie das Profil %s wirklich löschen?"
+0027=Sprachendatei fehlt!
+0028=aktiviert.
+0029=Dieses Programm erlaubt Ihnen 'schnell-Änderungen' Ihrer TCP/IP Einstellungen.
+0030=Aktiviere ausgewählte Profil. Bitte warten...
+0031=Profil ist aktiv.
+0032=IP Adresse              :
+0033=Subnet Maske            :
+0034=Standard Gateway        :
+0035=Bevorzugter DNS-Server  :
+0036=Alternativer DNS-Server :
+0038=Klick: Auswahl der Netzwerkkarte
+0039=Einstellungen auf ALLEN Netzwerkkarten aktivieren
+0040=Dies ist kein aktiviertes Profil
+0041=Bitte wählen Sie zuerst eine Netzwerkkarte aus!
+0042=Netzwerkkarte konnte nicht gefunden werden!
